@@ -6,6 +6,7 @@ main.py = program to connect to Spotify API and return playlist / track data
 playlistData.json = parsed API returns
                   - necessary to read 'playlistData.json' then write to a csv file
 
-d3.js / d3.min.js = javaScript resource for the Radar Chart
-                  - visualizes the graph in html (?)
-                  - necessary for this data to be read from a csv file
+d3.js / d3.min.js = javaScript resource to call in the radarChart.js file
+
+radarChart.js - visualizes the graph in html (?)
+              - necessary for this data to be read from a csv file
